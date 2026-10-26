@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Detroit flight options: Bay Area to DTW, Nov 11-16, 2026</title>
+<meta name="description" content="Four flight options for Sid and Tori from the Bay Area to Detroit (DTW), Nov 11-16, 2026, with per-person and total-for-2 prices.">
+<meta property="og:title" content="Detroit flight options">
+<meta property="og:description" content="Four roundtrip options, Bay Area to Detroit, Nov 11-16, 2026. Price per person and total for 2.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0F2438">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F2438'/%3E%3Cpath d='M50 36v-4L33 22V10a3 3 0 0 0-6 0v12L10 32v4l17-5v11l-4 3v3l9-2 9 2v-3l-4-3V31z' fill='%23FFC93C' transform='rotate(90 32 32)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0F2438;
+  --navy-2:#1B3650;
+  --sky:#E9F1F6;
+  --ticket:#FFFFFF;
+  --gold:#FFC93C;
+  --teal:#1C6E8C;
+  --green:#14633F;
+  --green-bg:#DDF3E6;
+  --warn:#8F2D14;
+  --warn-bg:#FDEBE5;
+  --muted:#4A5E70;
+  --line:#C5D4DF;
+  --mist:#B9CCDA;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --mono:"DM Mono",ui-monospace,monospace;
+  --wrap:60rem;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--sky);
+  color:var(--navy);
+  font-family:var(--display);
+  font-size:1.0625rem;
+  line-height:1.5;
+  font-optical-sizing:auto;
+  overflow-x:hidden;
+}
+h1,h2,h3,p,dl,dd,ul,ol{margin:0;padding:0}
+ul,ol{list-style:none}
+a{color:var(--teal);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;box-shadow:0 0 0 5px var(--navy);border-radius:4px}
+.wrap{width:min(100% - 2.5rem,var(--wrap));margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:var(--navy);padding:.6rem 1rem;z-index:10;font-weight:700}
+.skip:focus{left:0}
+
+.hero{
+  background:var(--navy);
+  color:#fff;
+  padding:clamp(1.75rem,5vw,3.5rem) 0 clamp(1.5rem,4vw,2.5rem);
+  position:relative;
+}
+.hero .wrap{display:grid;gap:1.4rem}
+.hero h1{
+  font-size:clamp(2.75rem,12.5vw,6.5rem);
+  line-height:.92;
+  font-weight:800;
+  letter-spacing:-.035em;
+  font-variation-settings:"opsz" 96;
+  overflow-wrap:break-word;
+}
+.hero h1 span{display:block}
+.hero h1 span+span{color:var(--gold)}
+.lede{color:var(--mist);max-width:34rem;font-size:1.0625rem}
+.lede strong{color:#fff;font-weight:700}
+.facts{display:grid;gap:.15rem;border-top:1px solid var(--navy-2)}
+.facts div{display:grid;grid-template-columns:6.2rem 1fr;gap:.75rem;padding:.6rem 0;border-bottom:1px solid var(--navy-2);align-items:baseline}
+.facts dt{font-family:var(--mono);font-size:.8rem;color:var(--mist)}
+.facts dd{font-weight:500;font-size:1.0625rem}
+.arc{display:block;width:100%;height:auto;max-height:84px;overflow:visible}
+.arc-wrap{position:relative}
+.arc-wrap .ends{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.8rem;color:var(--mist);margin-top:.2rem}
+.arc-line{fill:none;stroke:var(--gold);stroke-width:2.5;stroke-dasharray:2 9;stroke-linecap:round}
+.arc-plane{fill:var(--gold)}
+.arc-dot{fill:var(--gold)}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:3rem;padding:.7rem 1.4rem;border-radius:999px;
+  font:inherit;font-weight:700;text-decoration:none;cursor:pointer;
+  border:2px solid transparent;transition:transform .15s ease,background-color .15s ease;
+}
+.btn-gold{background:var(--gold);color:var(--navy)}
+.btn-gold:hover{transform:translateY(-2px);background:#FFD65E}
+.btn-ghost{border-color:var(--mist);color:#fff}
+.btn-ghost:hover{background:var(--navy-2)}
+
+main{padding-bottom:3rem}
+section{padding-top:clamp(2rem,5vw,3.5rem)}
+h2{
+  font-size:clamp(1.6rem,6vw,2.3rem);
+  line-height:1.05;
+  letter-spacing:-.02em;
+  font-weight:800;
+}
+.sub{color:var(--muted);margin-top:.5rem;max-width:36rem}
+.passes{display:grid;gap:1.5rem;margin-top:1.5rem}
+
+.pass{
+  position:relative;
+  display:grid;
+  background:var(--ticket);
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 1px 0 rgba(15,36,56,.06),0 10px 24px -12px rgba(15,36,56,.28);
+  scroll-margin-top:1rem;
+}
+.pass-main{padding:1.25rem 1.25rem 1.35rem;display:grid;gap:1rem}
+.pass-head{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem}
+.optno{
+  font-family:var(--mono);font-size:.8rem;font-weight:500;
+  background:var(--navy);color:#fff;border-radius:6px;padding:.2rem .55rem;
+}
+.pass-head h3{font-size:1.45rem;font-weight:800;letter-spacing:-.015em;line-height:1.1}
+.chip{
+  font-size:.85rem;font-weight:700;border-radius:999px;padding:.15rem .7rem;
+  background:#E1EEF5;color:#0E4F69;
+}
+.chip.stop{background:#FFF0C7;color:#5C4200}
+
+.route{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:.6rem}
+.route .pt{display:grid;gap:0}
+.route .pt:last-child{text-align:right}
+.code{font-family:var(--mono);font-weight:500;font-size:clamp(2rem,9vw,2.8rem);line-height:1;letter-spacing:-.04em}
+.city{font-size:.85rem;color:var(--muted)}
+.trail{position:relative;height:2.4rem;min-width:3rem}
+.trail::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px dashed var(--line)}
+.trail .plane{position:absolute;top:50%;left:50%;width:1.7rem;height:1.7rem;transform:translate(-50%,-50%) rotate(90deg);fill:var(--teal);background:var(--ticket);padding:.12rem}
+.trail.via .plane{left:80%}
+.trail .stop{
+  position:absolute;left:38%;top:50%;transform:translate(-50%,-50%);
+  width:.9rem;height:.9rem;border-radius:50%;background:var(--gold);border:3px solid var(--navy);
+}
+.trail .via-lab{
+  position:absolute;left:38%;top:-.1rem;transform:translateX(-50%);
+  font-family:var(--mono);font-size:.72rem;color:var(--navy);white-space:nowrap;
+}
+
+.legs{display:grid;gap:.5rem}
+.legs div{display:grid;grid-template-columns:4.2rem 1fr;gap:.5rem;align-items:baseline;padding:.55rem .75rem;background:#F3F8FB;border-radius:10px}
+.legs dt{font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+.legs dd{font-family:var(--mono);font-size:.95rem;font-weight:500}
+.legs dd small{font-family:var(--display);font-size:.9rem;color:var(--muted);font-weight:400}
+
+.tags{display:flex;flex-wrap:wrap;gap:.5rem}
+.tag{font-size:.88rem;font-weight:700;padding:.25rem .7rem;border-radius:8px}
+.tag.miles{background:var(--green-bg);color:var(--green)}
+.tag.cheap{background:var(--gold);color:var(--navy)}
+.tag.bags{background:var(--warn-bg);color:var(--warn)}
+.know{font-size:.97rem;color:var(--muted)}
+.know strong{color:var(--navy);font-weight:700}
+
+.pass-stub{
+  position:relative;
+  background:var(--navy);color:#fff;
+  padding:1.3rem 1.25rem 1.2rem;
+  display:grid;grid-template-columns:1fr 1fr;gap:.75rem 1rem;align-content:start;
+  border-top:2px dashed var(--mist);
+}
+.pass-stub::before,.pass-stub::after{
+  content:"";position:absolute;top:-12px;width:22px;height:22px;border-radius:50%;background:var(--sky);
+}
+.pass-stub::before{left:-11px}
+.pass-stub::after{right:-11px}
+.price{display:grid;gap:.1rem}
+.price .lab{font-size:.88rem;color:var(--mist)}
+.price .amt{font-family:var(--mono);font-weight:500;font-size:1.9rem;line-height:1.1;letter-spacing:-.04em}
+.price.total .amt{font-size:2.3rem;font-weight:500;color:var(--gold)}
+.fav{
+  grid-column:1/-1;
+  display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  min-height:2.75rem;padding:.5rem 1rem;border-radius:999px;
+  font:inherit;font-weight:700;font-size:.95rem;color:#fff;background:transparent;
+  border:2px solid var(--mist);cursor:pointer;
+  transition:background-color .15s ease,color .15s ease,transform .15s ease;
+}
+.fav:hover{background:var(--navy-2)}
+.fav svg{width:1.15rem;height:1.15rem;fill:none;stroke:currentColor;stroke-width:2;transition:transform .25s cubic-bezier(.3,1.6,.5,1)}
+.fav[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.fav[aria-pressed="true"] svg{fill:currentColor;transform:scale(1.2) rotate(-12deg)}
+.pass.is-fav{outline:3px solid var(--gold);outline-offset:3px}
+
+.pass.lowest .pass-stub{background:var(--gold);color:var(--navy)}
+.pass.lowest .pass-stub{border-top-color:var(--navy)}
+.pass.lowest .price .lab{color:#3A3000}
+.pass.lowest .price.total .amt{color:var(--navy)}
+.pass.lowest .fav{color:var(--navy);border-color:var(--navy)}
+.pass.lowest .fav:hover{background:#FFD65E}
+.pass.lowest .fav[aria-pressed="true"]{background:var(--navy);color:var(--gold);border-color:var(--navy)}
+
+.bars{margin-top:1.5rem;display:grid;gap:1rem}
+.bar{display:grid;gap:.4rem;padding:.1rem 0}
+.bar .barlab{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.bar .barlab span{font-weight:500}
+.bar .barlab small{color:var(--muted);font-size:.88rem}
+.bar .barlab strong{font-family:var(--mono);font-weight:500;font-size:1.25rem;letter-spacing:-.03em}
+.track{height:1.1rem;background:#D3E0E9;border-radius:999px;overflow:hidden}
+.fill{
+  display:block;height:100%;width:var(--w);background:var(--teal);border-radius:999px;
+  transform-origin:left center;animation:grow 1s .9s cubic-bezier(.2,.8,.2,1) both;
+}
+.bar[data-opt="3"] .fill{background:var(--gold);box-shadow:inset 0 0 0 2px var(--navy)}
+.bar.is-fav .barlab span::after{content:" (favorite)";color:var(--green);font-weight:700}
+.bar.is-fav .fill{background:var(--green)}
+.bar:nth-child(2) .fill{animation-delay:1.05s}
+.bar:nth-child(3) .fill{animation-delay:1.2s}
+.bar:nth-child(4) .fill{animation-delay:1.35s}
+
+.miles{
+  margin-top:0;background:var(--green-bg);color:#0B3D27;
+  border-radius:20px;padding:1.4rem 1.25rem;display:grid;gap:.75rem;
+}
+.miles h2{color:var(--green);font-size:clamp(1.4rem,5vw,1.9rem)}
+.miles p{max-width:38rem}
+.miles ul{display:flex;flex-wrap:wrap;gap:.6rem}
+.miles a{
+  display:inline-block;background:#fff;color:var(--green);font-weight:700;
+  padding:.5rem .95rem;border-radius:999px;text-decoration:none;border:2px solid var(--green);
+}
+.miles a:hover{background:var(--green);color:#fff}
+
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
+footer .wrap{display:grid;gap:.4rem;border-top:1px solid var(--line);padding-top:1.25rem}
+footer strong{color:var(--navy)}
+
+.arc-clip{animation:reveal 1.5s .15s cubic-bezier(.5,0,.2,1) both}
+.hero .lede,.hero .facts,.hero .actions{animation:settle .7s .1s ease-out both}
+
+@keyframes reveal{from{clip-path:inset(-10px 100% -10px 0)}to{clip-path:inset(-10px -10px -10px 0)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes settle{from{opacity:.001;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media (min-width:760px){
+  body{font-size:1.125rem}
+  .hero .wrap{grid-template-columns:1.15fr 1fr;column-gap:3rem;align-items:end}
+  .hero h1{grid-column:1/-1}
+  .hero .arc-wrap{grid-column:1/-1;order:5}
+  .hero .actions{align-self:start}
+  .facts div{grid-template-columns:7rem 1fr}
+  .pass{grid-template-columns:1fr 15rem}
+  .pass-main{padding:1.6rem 1.75rem 1.7rem}
+  .pass-stub{
+    border-top:0;border-left:2px dashed var(--mist);
+    grid-template-columns:1fr;align-content:center;padding:1.5rem;
+  }
+  .pass.lowest .pass-stub{border-left-color:var(--navy)}
+  .pass-stub::before,.pass-stub::after{left:-12px;right:auto}
+  .pass-stub::before{top:-11px}
+  .pass-stub::after{top:auto;bottom:-11px}
+  .legs{grid-template-columns:1fr 1fr}
+  .legs div{grid-template-columns:1fr;gap:.1rem}
+  .miles{padding:2rem 2.25rem}
+}
+@media (min-width:1100px){
+  :root{--wrap:64rem}
+  .passes{gap:1.75rem}
+}
+@media (max-width:380px){
+  .wrap{width:min(100% - 2rem,var(--wrap))}
+  .facts div{grid-template-columns:5.2rem 1fr}
+  .pass-main{padding:1.1rem 1rem 1.2rem}
+  .route{gap:.4rem}
+  .price .amt{font-size:1.65rem}
+  .price.total .amt{font-size:2rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+@media print{
+  body{background:#fff}
+  .hero{background:#fff;color:var(--navy)}
+  .hero .lede,.facts dt{color:var(--muted)}
+  .hero h1 span+span{color:var(--navy)}
+  .actions,.fav,.arc-wrap{display:none}
+  .pass{box-shadow:none;border:1px solid var(--navy);break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#options">Skip to the options</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="plane" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></symbol>
+  <symbol id="heart" viewBox="0 0 24 24"><path stroke-linejoin="round" d="M12 20.5s-7.5-4.6-9.2-9.4C1.7 7.700 3.800 4.800 6.900 4.800c2 0 3.900 1.100 5.100 3 1.200-1.900 3.100-3 5.100-3 3.100 0 5.200 2.900 4.100 6.300-1.700 4.800-9.200 9.400-9.200 9.400z"/></symbol>
+</svg>
+
+<header class="hero">
+  <div class="wrap">
+    <h1><span>Detroit</span> <span>flight options</span></h1>
+    <div>
+      <p class="lede">Four roundtrip choices from the Bay Area for Sid and Tori. Every price below is <strong>per person, roundtrip</strong>, with the <strong>total for 2</strong> next to it. Tap the heart on any ticket to mark your favorite.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>Trip</dt><dd>Nov 11-16, 2026</dd></div>
+      <div><dt>Route</dt><dd>Bay Area to Detroit (DTW)</dd></div>
+      <div><dt>Travelers</dt><dd>2, Sid and Tori</dd></div>
+      <div><dt>Price range</dt><dd>$214 to $529 per person</dd></div>
+    </dl>
+    <div class="arc-wrap" aria-hidden="true">
+      <div class="arc-clip">
+        <svg class="arc" viewBox="0 0 600 84" preserveAspectRatio="none">
+          <path class="arc-line" d="M8 76 Q300 -34 574 30"/>
+          <circle class="arc-dot" cx="8" cy="76" r="5"/>
+          <use class="arc-plane" href="#plane" x="560" y="16" width="30" height="30" transform="rotate(62 575 31)"/>
+        </svg>
+      </div>
+      <div class="ends"><span>Bay Area</span><span>DTW</span></div>
+    </div>
+    <div class="actions">
+      <a class="btn btn-gold" href="#options">See the 4 options</a>
+      <a class="btn btn-ghost" href="#miles">Miles note</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="options" aria-labelledby="options-h">
+    <div class="wrap">
+      <h2 id="options-h">The four options</h2>
+      <p class="sub">In the order they came in the alert. Big gold number is the total for 2.</p>
+
+      <div class="passes">
+
+        <article class="pass" id="opt1" data-opt="1">
+          <div class="pass-main">
+            <div class="pass-head"><span class="optno">Option 1</span><h3>SkyBridge</h3><span class="chip">Nonstop</span></div>
+            <div class="route" role="group" aria-label="San Francisco SFO to Detroit DTW">
+              <div class="pt"><span class="code">SFO</span><span class="city">San Francisco</span></div>
+              <div class="trail" aria-hidden="true"><svg class="plane"><use href="#plane"/></svg></div>
+              <div class="pt"><span class="code">DTW</span><span class="city">Detroit</span></div>
+            </div>
+            <dl class="legs">
+              <div><dt>Out</dt><dd>Thu Nov 12, 8:26am</dd></div>
+              <div><dt>Return</dt><dd>Mon Nov 16, 8:15am <small>nonstop</small></dd></div>
+            </dl>
+            <ul class="tags"><li class="tag miles">Miles-eligible</li></ul>
+            <p class="know"><strong>Good to know:</strong> same return flight as option 4, but you leave a day earlier and pay less.</p>
+          </div>
+          <div class="pass-stub">
+            <div class="price"><span class="lab">Per person</span><span class="amt">$486</span></div>
+            <div class="price total"><span class="lab">Total for 2</span><span class="amt">$972</span></div>
+            <button class="fav" type="button" aria-pressed="false"><svg aria-hidden="true"><use href="#heart"/></svg><span>Favorite</span></button>
+          </div>
+        </article>
+
+        <article class="pass" id="opt2" data-opt="2">
+          <div class="pass-main">
+            <div class="pass-head"><span class="optno">Option 2</span><h3>Lakeshore Airlines</h3><span class="chip stop">1 stop via DEN</span></div>
+            <div class="route" role="group" aria-label="San Jose SJC to Detroit DTW, one stop in Denver DEN">
+              <div class="pt"><span class="code">SJC</span><span class="city">San Jose</span></div>
+              <div class="trail via" aria-hidden="true"><span class="via-lab">DEN</span><span class="stop"></span><svg class="plane"><use href="#plane"/></svg></div>
+              <div class="pt"><span class="code">DTW</span><span class="city">Detroit</span></div>
+            </div>
+            <dl class="legs">
+              <div><dt>Out</dt><dd>Wed Nov 11, 7:05am</dd></div>
+              <div><dt>Return</dt><dd>Mon Nov 16, 9:40am</dd></div>
+            </dl>
+            <p class="know"><strong>Good to know:</strong> the only option with a stop. It leaves on Nov 11, the first day of the trip.</p>
+          </div>
+          <div class="pass-stub">
+            <div class="price"><span class="lab">Per person</span><span class="amt">$331</span></div>
+            <div class="price total"><span class="lab">Total for 2</span><span class="amt">$662</span></div>
+            <button class="fav" type="button" aria-pressed="false"><svg aria-hidden="true"><use href="#heart"/></svg><span>Favorite</span></button>
+          </div>
+        </article>
+
+        <article class="pass lowest" id="opt3" data-opt="3">
+          <div class="pass-main">
+            <div class="pass-head"><span class="optno">Option 3</span><h3>Zipjet</h3><span class="chip">Nonstop</span></div>
+            <div class="route" role="group" aria-label="Oakland OAK to Detroit DTW">
+              <div class="pt"><span class="code">OAK</span><span class="city">Oakland</span></div>
+              <div class="trail" aria-hidden="true"><svg class="plane"><use href="#plane"/></svg></div>
+              <div class="pt"><span class="code">DTW</span><span class="city">Detroit</span></div>
+            </div>
+            <dl class="legs">
+              <div><dt>Out</dt><dd>Thu Nov 12, 6:15am</dd></div>
+              <div><dt>Return</dt><dd>Sun Nov 15, 5:30pm</dd></div>
+            </dl>
+            <ul class="tags"><li class="tag cheap">Lowest price</li><li class="tag bags">Bags not included</li></ul>
+            <p class="know"><strong>Good to know:</strong> Zipjet is a budget carrier and bags cost extra, so the real total will be higher. It also gets you home a day earlier than the others.</p>
+          </div>
+          <div class="pass-stub">
+            <div class="price"><span class="lab">Per person</span><span class="amt">$214</span></div>
+            <div class="price total"><span class="lab">Total for 2</span><span class="amt">$428</span></div>
+            <button class="fav" type="button" aria-pressed="false"><svg aria-hidden="true"><use href="#heart"/></svg><span>Favorite</span></button>
+          </div>
+        </article>
+
+        <article class="pass" id="opt4" data-opt="4">
+          <div class="pass-main">
+            <div class="pass-head"><span class="optno">Option 4</span><h3>SkyBridge</h3><span class="chip">Nonstop</span></div>
+            <div class="route" role="group" aria-label="San Francisco SFO to Detroit DTW">
+              <div class="pt"><span class="code">SFO</span><span class="city">San Francisco</span></div>
+              <div class="trail" aria-hidden="true"><svg class="plane"><use href="#plane"/></svg></div>
+              <div class="pt"><span class="code">DTW</span><span class="city">Detroit</span></div>
+            </div>
+            <dl class="legs">
+              <div><dt>Out</dt><dd>Fri Nov 13, 8:10am</dd></div>
+              <div><dt>Return</dt><dd>Mon Nov 16, 8:15am <small>nonstop</small></dd></div>
+            </dl>
+            <ul class="tags"><li class="tag miles">Miles-eligible</li></ul>
+            <p class="know"><strong>Good to know:</strong> same return as option 1, but you leave a day later and it costs $43 more per person.</p>
+          </div>
+          <div class="pass-stub">
+            <div class="price"><span class="lab">Per person</span><span class="amt">$529</span></div>
+            <div class="price total"><span class="lab">Total for 2</span><span class="amt">$1,058</span></div>
+            <button class="fav" type="button" aria-pressed="false"><svg aria-hidden="true"><use href="#heart"/></svg><span>Favorite</span></button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="compare" aria-labelledby="compare-h">
+    <div class="wrap">
+      <h2 id="compare-h">Total for 2, cheapest first</h2>
+      <p class="sub">Same prices as above, lined up so the gaps are easy to see.</p>
+      <ol class="bars">
+        <li class="bar" data-opt="3">
+          <div class="barlab"><span>Option 3, Zipjet <small>bags extra</small></span><strong>$428</strong></div>
+          <div class="track"><span class="fill" style="--w:40.5%"></span></div>
+        </li>
+        <li class="bar" data-opt="2">
+          <div class="barlab"><span>Option 2, Lakeshore <small>1 stop</small></span><strong>$662</strong></div>
+          <div class="track"><span class="fill" style="--w:62.6%"></span></div>
+        </li>
+        <li class="bar" data-opt="1">
+          <div class="barlab"><span>Option 1, SkyBridge <small>leaves Nov 12</small></span><strong>$972</strong></div>
+          <div class="track"><span class="fill" style="--w:91.9%"></span></div>
+        </li>
+        <li class="bar" data-opt="4">
+          <div class="barlab"><span>Option 4, SkyBridge <small>leaves Nov 13</small></span><strong>$1,058</strong></div>
+          <div class="track"><span class="fill" style="--w:100%"></span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="miles" aria-labelledby="miles-h">
+    <div class="wrap">
+      <div class="miles">
+        <h2 id="miles-h">We have SkyBridge miles</h2>
+        <p>Options 1 and 4 are the SkyBridge flights, so they could potentially be paid with miles. Those two are the miles-eligible ones. This page doesn't show a miles price.</p>
+        <ul>
+          <li><a href="#opt1">Jump to option 1</a></li>
+          <li><a href="#opt4">Jump to option 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Source:</strong> FareHound alert from Oct 8, 2026.</p>
+    <p>Prices in the alert are per person, roundtrip. Total for 2 is the per-person price times 2.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var buttons=document.querySelectorAll('.fav');
+  buttons.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var pass=btn.closest('.pass');
+      var opt=pass.getAttribute('data-opt');
+      var on=btn.getAttribute('aria-pressed')!=='true';
+      btn.setAttribute('aria-pressed',String(on));
+      btn.querySelector('span').textContent=on?'Your favorite':'Favorite';
+      pass.classList.toggle('is-fav',on);
+      var bar=document.querySelector('.bar[data-opt="'+opt+'"]');
+      if(bar){bar.classList.toggle('is-fav',on);}
+    });
+  });
+})();
+</script>
+</body>
+</html>

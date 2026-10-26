@@ -152,7 +152,7 @@ h2{
 
 .tags{display:flex;flex-wrap:wrap;gap:.5rem}
 .tag{font-size:.88rem;font-weight:700;padding:.25rem .7rem;border-radius:8px}
-.tag.miles{background:var(--green-bg);color:var(--green)}
+.tag.mi{background:var(--green-bg);color:var(--green)}
 .tag.cheap{background:var(--gold);color:var(--navy)}
 .tag.bags{background:var(--warn-bg);color:var(--warn)}
 .know{font-size:.97rem;color:var(--muted)}
@@ -240,10 +240,12 @@ footer strong{color:var(--navy)}
 
 @media (min-width:760px){
   body{font-size:1.125rem}
-  .hero .wrap{grid-template-columns:1.15fr 1fr;column-gap:3rem;align-items:end}
+  .hero .wrap{grid-template-columns:1.15fr 1fr;column-gap:3rem;align-items:start}
+  .hero .facts{grid-column:2;grid-row:2 / span 2;margin-top:.4rem}
+  .hero .lede{margin-top:.4rem}
   .hero h1{grid-column:1/-1}
   .hero .arc-wrap{grid-column:1/-1;order:5}
-  .hero .actions{align-self:start}
+  .hero .actions{align-self:start;margin-top:.2rem}
   .facts div{grid-template-columns:7rem 1fr}
   .pass{grid-template-columns:1fr 15rem}
   .pass-main{padding:1.6rem 1.75rem 1.7rem}
@@ -341,7 +343,7 @@ footer strong{color:var(--navy)}
               <div><dt>Out</dt><dd>Thu Nov 12, 8:26am</dd></div>
               <div><dt>Return</dt><dd>Mon Nov 16, 8:15am <small>nonstop</small></dd></div>
             </dl>
-            <ul class="tags"><li class="tag miles">Miles-eligible</li></ul>
+            <ul class="tags"><li class="tag mi">Miles-eligible</li></ul>
             <p class="know"><strong>Good to know:</strong> same return flight as option 4, but you leave a day earlier and pay less.</p>
           </div>
           <div class="pass-stub">
@@ -406,7 +408,7 @@ footer strong{color:var(--navy)}
               <div><dt>Out</dt><dd>Fri Nov 13, 8:10am</dd></div>
               <div><dt>Return</dt><dd>Mon Nov 16, 8:15am <small>nonstop</small></dd></div>
             </dl>
-            <ul class="tags"><li class="tag miles">Miles-eligible</li></ul>
+            <ul class="tags"><li class="tag mi">Miles-eligible</li></ul>
             <p class="know"><strong>Good to know:</strong> same return as option 1, but you leave a day later and it costs $43 more per person.</p>
           </div>
           <div class="pass-stub">
